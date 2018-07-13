@@ -1,0 +1,110 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/* ================ Start My Frame ================ */
+
+/* ================ End My Frame ================ */
+
+/* ================ Start Nav ================ */
+
+/* ================ End Nav ================ */
+
+/* ================ Start Header ================ */
+
+/* ================ End Header ================ */
+
+/* ================ Start ================ */
+
+body,
+html {
+    font-family: 'Cairo', sans-serif;
+}
+
+.col-main,
+.col-nav {
+    padding: 0;
+}
+
+.col-nav p:first-child,
+.col-main p:first-child {
+    margin-top: 60px;
+}
+
+.col-nav p {
+    border-bottom: 1px solid #ddcfcf;
+    padding: 0px 50px 10px;
+}
+
+.col-nav p a {
+    color: #888686;
+    font-size: 15px;
+}
+
+.col-nav p a:hover {
+    text-decoration: none;
+    color: #d8d5d5;
+}
+
+.col-main .table-sec {
+    padding: 10px;
+}
+
+.col-main .table-sec th {
+    color: #888686;
+    border-color: #24e9df;
+    border-width: 1px;
+    font-weight: normal;
+    padding: 14px 8px 3px;
+}
+
+.col-main .table-sec td {
+    color: #888686;
+    border-color: #24e9df;
+    padding: 14px 8px 3px;
+}
+
+.col-main .table-sec td a {
+    color: #888686;
+}
+
+.col-main .table-sec td a:hover {
+    text-decoration: none;
+    color: #d8d5d5;
+}
+
+@media (min-width:767px) {
+    .col-main,
+    .col-nav {
+        height: 100%;
+    }
+    .main-contain,
+    .main-row {
+        height: 100%;
+    }
+    body,
+    html {
+        height: 100vh;
+        font-family: 'Cairo', sans-serif;
+    }
+    .col-nav {
+        border-left: 1px solid #ddcfcf;
+    }
+    .col-main .table-sec {
+        padding: 50px;
+    }
+}
+
+/* ================ End ================ */
+
+/* ================ Start ================ */
+
+/* ================ End ================ */
+
+/* ================ Start ================ */
+
+/* ================ End ================ */
+
+/* ================ Start Footer ================ */
+
+/* ================ End  Footer ================ */
